@@ -37,7 +37,7 @@ class ColourSet;
 class RangeFit : public ColourFit
 {
 public:
-	RangeFit( ColourSet const* colours, int flags, float* metric );
+	RangeFit( ColourSet const* colours, int flags );
 	
 private:
 	virtual void Compress3( void* block );

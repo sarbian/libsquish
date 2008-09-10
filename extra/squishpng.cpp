@@ -497,6 +497,7 @@ int main( int argc, char* argv[] )
 		std::string targetFileName;
 		Mode mode = kCompress;
 		int method = kDxt1;
+		int metric = kColourMetricPerceptual;
 		int fit = kColourClusterFit;
 		int extra = 0;
 		bool help = false;
@@ -518,6 +519,7 @@ int main( int argc, char* argv[] )
 					case '1': method = kDxt1; break;
 					case '3': method = kDxt3; break;
 					case '5': method = kDxt5; break;
+					case 'u': metric = kColourMetricUniform; break;
 					case 'r': fit = kColourRangeFit; break;
 					case 'i': fit = kColourIterativeClusterFit; break;
 					case 'w': extra = kWeightColourByAlpha; break;
@@ -575,7 +577,7 @@ int main( int argc, char* argv[] )
 		switch( mode )
 		{
 		case kCompress:
-			Compress( sourceFileName, targetFileName, method | fit | extra );
+			Compress( sourceFileName, targetFileName, method | metric | fit | extra );
 			break;
 		
 		case kDecompress:
