@@ -1,7 +1,5 @@
-#summary Frequently asked questions.
+#summary Frequently asked questions (and answers).
 #labels Featured
-
-= FAQ =
 
 == DXT3/5 images look fine, but DXT1 images come out black! What's going on? ==
 
