@@ -35,7 +35,7 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="../../lib/vs7/squishd.lib"/>
+				OutputFile="../../lib/squishd.lib"/>
 			<Tool
 				Name="VCMIDLTool"/>
 			<Tool
@@ -81,7 +81,7 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="../../lib/vs7/squish.lib"/>
+				OutputFile="../../lib/squish.lib"/>
 			<Tool
 				Name="VCMIDLTool"/>
 			<Tool
