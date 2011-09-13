@@ -19,3 +19,4 @@ endif
 
 # where should we install to
 INSTALL_DIR ?= /usr/local
+
